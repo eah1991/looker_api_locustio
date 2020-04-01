@@ -1,0 +1,7 @@
+#rename config.yml
+
+hosts:
+ 'localhost':
+    host: 'https://analyticsacademy.api.eu.looker.com:443/api/3.1'
+    secret: '2RyJYJbVF5h2XBck8MFC'
+    token: '93NQ3kPdNc6DP8s4bdKXyD8t'
