@@ -2,6 +2,6 @@
 
 hosts:
  'localhost':
-    host: 'https://analyticsacademy.api.eu.looker.com:443/api/3.1'
+    host: 'https://analyticsacademy.eu.looker.com'
     secret: '2RyJYJbVF5h2XBck8MFC'
     token: '93NQ3kPdNc6DP8s4bdKXyD8t'
