@@ -1,8 +1,7 @@
 import yaml
-from locust import HttpLocust, TaskSet, task
+from locust import HttpLocust, TaskSet, task, between
 import random
 import requests
-import between
 
 class ApiBehavior(TaskSet):
 
