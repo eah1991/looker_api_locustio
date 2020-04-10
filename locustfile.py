@@ -2,6 +2,7 @@ import yaml
 from locust import HttpLocust, TaskSet, task
 import random
 import requests
+import between
 
 class ApiBehavior(TaskSet):
 
@@ -48,5 +49,4 @@ class ApiBehavior(TaskSet):
 
 class ApiUser(HttpLocust):
     task_set = ApiBehavior
-    min_wait = 5000
-    max_wait = 9000
+    wait_time = between(5, 15)
