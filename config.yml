@@ -3,5 +3,5 @@
 hosts:
  'https://ppb.eu.looker.com:19999/api/3.1/':
     host: https://ppb.eu.looker.com:19999/api/3.1/'
-    secret: 'smb7ScgkB4hqmGntFcj7436H'
-    token: 'bZG2TZGB7WkcdYXT6kqq'
+    secret: 'xxxx'
+    token: 'yyyy'
